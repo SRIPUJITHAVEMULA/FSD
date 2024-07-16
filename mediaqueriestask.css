@@ -1,0 +1,247 @@
+.parent{
+    width: 100%;
+    height: 100%;
+    /* background-color: blue; */
+    background-image: url("https://foyr.com/learn/wp-content/uploads/2019/01/best-interior-design-tips.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.ch1{
+    width: 100%;
+    height: 20%;
+    background: linear-gradient(black,gray);
+    position: fixed;
+}
+.a1{
+    width: 90%;
+    height: 90%;
+    /* background-color: aqua; */
+    position: relative;
+    display: flex;
+    top:8%;
+    left:4%;
+    border-bottom: 2px solid white;
+}
+.a2{
+    width: 15%;
+    height: 100%;
+    /* background-color: orange;s */
+    background-image: url("https://www.altlights.com/static/media/Logo_Image.30031c07f18c8695da51.png");
+    background-size: 100% 80%;
+    background-repeat: no-repeat;
+}
+.a3{
+    width: 70%;
+    height: 100%;
+    /* background-color: red; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.a4{
+    width: 15%;
+    height: 100%;
+    /* border: 1px solid yellow; */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.a4:hover{
+    border-bottom: 3px solid red;
+}
+.a5{
+    width: 5%;
+    height: 30%;
+    background-color: red;
+    position: absolute;
+    left:87%;
+    top:34%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    display: none;
+}
+.ch2{
+    width: 30%;
+    height: 25%;
+    /* background-color: red; */
+    position: absolute;
+    top:45%;
+    left:10%;
+    color: white;
+    font-size: 60px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.ch3{
+    width: 30%;
+    height: 10%;
+    /* background-color: black; */
+    position: absolute;
+    top:70%;
+    left:10%;
+    color: white;
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.parent2{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    position: relative;
+}
+@media screen and (max-width:750px){
+    .a4{
+        display: none;
+    }
+    .a5{
+        display: block;
+
+    }
+
+}
+.b1{
+    width: 80%;
+    height: 20%;
+    /* background-color: aqua; */
+    position: absolute;
+    left:10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: brown;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.b2{
+    width: 90%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: black; */
+    position: absolute;
+    top:20%;
+    left:5%;
+}
+.b3{
+    width: 15%;
+    height: 50%;
+    /* background-color:maroon; */
+    border: 1px solid rgb(207, 64, 64);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+
+}
+.b3:hover{
+    background-color: rgb(207, 64, 64);
+    
+}
+.b4{
+    width: 90%;
+    height: 15%;
+    background-color: gray;
+    position: absolute;
+    top:40%;    
+    left:5%;
+    color: gray;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.b5{
+    width: 90%;
+    height: 60%;
+    background-color: red;
+    position:absolute;
+    top:55%;
+    left:5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.b6{
+    width: 20%;
+    height: 90%;
+    background-color: black;
+    border-radius: 20%;
+}
+#a{
+    background-image: url("./Screenshot\ 2024-06-28\ 131306.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+}
+#b{
+    background-image: url("./Screenshot\ 2024-06-28\ 131826.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#c{
+    background-image: url("./Screenshot\ 2024-06-28\ 131838.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+}
+.b7{
+    width: 5%;
+    height: 10%;
+    border-radius: 100%;
+    border: 2px solid black;
+    position: absolute;
+    top:80%;
+    left:32%;
+    color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.b8{
+    width: 5%;
+    height: 10%;
+    border-radius: 100%;
+    border: 2px solid black;
+    position: absolute;
+    top:80%;
+    left:63%;
+    color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.parent3{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    position: relative;
+}
+.c1{
+    width: 40%;
+    height: 20%;
+    position: absolute;
+}
+/* @media screen and (max-width:750px){
+    .ch3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 40px;
+    }
+    .ch31{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+    }
+} */

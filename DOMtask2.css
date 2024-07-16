@@ -1,0 +1,31 @@
+#div1{
+    height: fit-content;
+    width: fit-content; 
+    border: 1px solid black;
+    box-shadow: 1px 1px 4px 1px solid black; 
+}
+#b1{
+    height: 5%;
+    width: 5%;
+    background-color: wheat;
+    border-radius: 15%;
+}
+#b2{
+    height: 5%;
+    width: 5%;
+    background-color: wheat;
+    border-radius: 15%;;
+}
+#b3{
+    height: 5%;
+    width: 5%;
+    background-color: wheat;
+    border-radius: 15%;
+}
+#b4{
+    height: 5%;
+    width: 5%;
+    background-color: wheat;
+    border-radius: 15%;
+}
+

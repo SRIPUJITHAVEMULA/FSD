@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/> -->
+         <link rel="stylesheet" href="./slick-1.8.1/slick/slick.css"/>
+        <link rel="stylesheet" href="./carousers.css"/>
+    </head>
+    <body>
+        <div class="parent">
+            <div class="child">
+                <div class="inner_child"></div>
+            </div>
+            <div class="child">
+                <div class="inner_child"></div>
+            </div>
+            <div class="child">
+                <div class="inner_child"></div>
+            </div>
+            <div class="child">
+                <div class="inner_child"></div>
+            </div>
+            <div class="child">
+                <div class="inner_child"></div>
+            </div>
+            <div class="child">
+                <div class="inner_child"></div>
+            </div>
+        </div>
+        <!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script> -->
+         <script type="text/javascript" src="./slick-1.8.1/jquery.min.js"></script>
+        <!-- <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
+         <script src="./slick-1.8.1/slick/slick.js"></script>
+        <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
+         <script src="./slick-1.8.1/slick/slick.min.js"></script>
+        <script type="text/javascript">
+              $('.parent').slick({
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                autospeed:600,
+                infinite:true,
+                dots:true,
+                centerMode:true,
+                prevArrow:'<button class="prev_button"><</button>',
+                nextArrow:'<button class="prev_button">></button>',
+                responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                },
+            ]
+              });
+          </script>
+    </body>
+</html>

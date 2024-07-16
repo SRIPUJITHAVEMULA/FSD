@@ -1,0 +1,27 @@
+body{
+    position: relative;
+}
+.parent{
+    width: 0px;
+    height:250px;
+    background-color: black;
+    /* display: none; */
+    flex-direction: column;
+    color: white;
+    font-size: 32px;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+    top:20px;
+    left:0;
+    transition: all 1.5s;
+}
+.parent div{
+    padding: 5px 5px;
+}
+.options:hover{
+    transform: scale(1.08);
+    text-shadow: 2px 2px 13px white;
+    cursor: pointer;
+}

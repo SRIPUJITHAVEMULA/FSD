@@ -1,0 +1,182 @@
+.parent{
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(243, 236, 236);
+    background-color: rgb(245,245,245);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.child{
+    width: 200px;
+    height: 250px;
+    border: 1px solid rgb(90, 87, 87);
+    background-color: white;
+    border-radius: 5%;
+    box-shadow: 1px 1px 10px 2px rgb(206,203,203);
+    top: 10%;
+    left:40%;
+    margin: 20px;
+}
+.a{
+    width:150px;
+    height:170px;
+    background-color:rgb(250, 252, 252) ;
+    position: absolute;
+    left: 5%;
+}
+.img1{
+    width:150px;
+    height:170px;
+}
+.b{
+    width:150px;
+    height:170px;
+    background-color:aqua ;
+    position: absolute;
+    left: 25%;
+}
+.img2{
+    width:150px;
+    height:170px;
+}
+.c{
+    width:150px;
+    height:170px;
+    background-color:aqua ;
+    position: absolute;
+    left: 45%;
+}
+.img3{
+    width:150px;
+    height:170px;
+}
+.d{
+    width:150px;
+    height:170px;
+    background-color:aqua ;
+    position: absolute;
+    left: 64%;
+}
+.img4{
+    width:150px;
+    height:170px;
+}
+.e{
+    width:150px;
+    height:170px;
+    background-color:aqua ;
+    position: absolute;
+    left: 84%;
+}
+.img5{
+    width:150px;
+    height:170px;
+}
+.f{
+    width:10px;
+    height:170px;
+    background-color:aqua ;
+    position: absolute;
+    left: 5%;
+}
+.img6{
+    width:150px;
+    height:170px;
+}
+.txt{
+    width: 4%;
+    height:20px;
+    border: 1px solid white;
+    background-color: white;
+    position: absolute;
+    top:42%;
+    left: 4%;
+}
+.txtt{
+    width: 4%;
+    height:20px;
+    border: 1px solid white;
+    background-color: white;
+    position: absolute;
+    top:42%;
+    left: 12%;
+    color: red;
+}
+.txt1{
+    width: 4%;
+    height:20px;
+    border: 1px solid white;
+    background-color: white;
+    position: absolute;
+    top:42%;
+    left: 24%;
+}
+.txtt1{
+    width: 4%;
+    height:20px;
+    border: 1px solid white;
+    background-color: white;
+    position: absolute;
+    top:42%;
+    left: 32%;
+    color: red;
+}
+.txt2{
+    width: 4%;
+    height:20px;
+    border: 1px solid white;
+    background-color: white;
+    position: absolute;
+    top:42%;
+    left: 43%;
+}
+.txtt2{
+    width: 4%;
+    height:20px;
+    border: 1px solid white;
+    background-color: white;
+    position: absolute;
+    top:42%;
+    left: 52%;
+    color: red;
+}
+.txt3{
+    width: 4%;
+    height:20px;
+    border: 1px solid white;
+    background-color: white;
+    position: absolute;
+    top:42%;
+    left: 63%;
+}
+.txtt3{
+    width: 4%;
+    height:20px;
+    border: 1px solid white;
+    background-color: white;
+    position: absolute;
+    top:42%;
+    left: 71%;
+    color: red;
+}
+.txt4{
+    width: 4%;
+    height:20px;
+    border: 1px solid white;
+    background-color: white;
+    position: absolute;
+    top:42%;
+    left: 83%;
+}
+.txtt4{
+    width: 4%;
+    height:20px;
+    border: 1px solid white;
+    background-color: white;
+    position: absolute;
+    top:42%;
+    left: 91%;
+    color: red;
+}
+

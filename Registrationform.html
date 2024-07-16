@@ -1,0 +1,143 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./registrationform.css"/>
+        <script src="./registrationform.js"></script>
+    </head>
+    <body>
+        <div class="parent">
+            <div class="child1">
+            <center><h1>Personal Details</h1></center>
+            <label style="margin-right: 10px;"><b>First Name:</b></label>
+            <input type="text" onchange="fname(event)"><br><br>
+            <label style="margin-right: 10px;"><b>Second Name:</b></label>
+            <input type="text" onchange="sname(event)"><br><br>
+            <label style="margin-right: 60px;"><b>DOB:</b></label>
+            <input type="date" onchange="dob(event)"><br><br>
+            <label style="margin-right: 10px;"><b>Age:</b></label>
+            <input type="number" onchange="age(event)"><br><br>
+            <label style="margin-right: 10px;"><b>Mother name:</b></label>
+            <input type="text" onchange="mname(event)"><br><br>
+            <label style="margin-right: 10px;"><b>Father name:</b></label>
+            <input type="text" onchange="ftname(event)"><br><br>
+            <label style="margin-right: 10px;"><b>Address:</b></label>
+            <textarea onchange="address(event)"></textarea><br><br>
+            <label style="margin-right: 10px;"><b>Gender:</b></label>
+            <input type="radio" value="Male" onchange="gender(event)">
+            <label><b>Male</b></label>
+            <input type="radio" value="Female" onchange="gender(event)">
+            <label><b>Female</b></label><br><br>
+            <label style="margin-right: 10px;"><b>Certifications:</b></label>
+            <input type="text" onchange="cetifications(event)"><br><br>
+            <label><b>Academic Details:</b></label><br><br>
+            <table style="border: 1px solid black;">
+                <tr>
+                    <th>N.I</th>
+                    <th>YEAR OF PASSING</th>
+                    <th>%(PERCENTAGE)</th>
+                    <th>PLACE</th>
+                </tr>
+                <tr>
+                    <td>S.S.C</td>
+                    <td><input type="text" onchange="sscyear(event)"></td>
+                    <td><input type="text" onchange="sscper(event)"></td>
+                    <td><input type="text" onchange="sscplace(event)"></td>
+                </tr>
+                <tr>
+                    <td>INTERMEDIATE(M.P.C)</td>
+                    <td><input type="text" onchange="Interyear(event)"></td>
+                    <td><input type="text" onchange="Interper(event)"></td>
+                    <td><input type="text" onchange="Interplace(event)"></td>
+                </tr>
+                <tr>
+                    <td>BTECH(AIML)</td>
+                    <td><input type="text" onchange="Btechyear(event)"></td>
+                    <td><input type="text" onchange="Btechper(event)"></td>
+                    <td><input type="text" onchange="Btechplace(event)"></td>
+                </tr>
+            </table><br><br>
+            <label><b>Skills:</b></label>
+            <input type="text" onchange="skills(event)"><br><br>
+            <label><b>Hobbies:</b></label>
+            <input type="text" onchange="skills(event)"><br><br>
+            <label><b>Profile:</b></label>
+            <input type="file" onchange="profile(event)"><br><br>
+            <button onclick="sub(event)">Submit</button><br><br>
+        </div>
+        </div>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <html>
+    <head>
+        <link rel="stylesheet" href="./registrationform.css"/>
+        <script src="./registrationform.js"></script>
+    </head>
+    <body>
+        <button onclick="console.log('Hello')">Click me</button>
+        <input type="text" onchange="fun(event)">
+        <center><h1>SURVEY FORM</h1>
+        <form>
+            <label>First Name:</label>
+            <input type="text" onchange="Firstname(event)"><br><br>
+            <label>Last Name:</label>
+            <input type="text" onchange="Lastname(event)"><br><br>
+            <label>Age:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="number" onchange="Age(event)"><br><br>
+            <label>Gender:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="radio" value="Male" name="testing" onchange="Male(event)">
+            <label>Male</label>
+            <input type="radio" value="Female" name="testing" onchange="Female(event)">
+            <label>Female</label><br><br>
+            <label>Mobile no:</label>
+            <input type="number" onchange="Mobile(event)"/><br><br>
+            <label>DOB:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="date" onchange="DOB(event)"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br>
+            <label>Address:</label>
+            <textarea onchange="Address(event)"></textarea><br><br>
+            <label>Email:</label>
+            <input type="email" onchange="email(event)"/><br><br>
+            <label>College:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <select onchange="College(event)">
+                <option></option>
+                <option value="AEC">AEC</option>
+                <option value="ACET">ACET</option>
+                <option value="ACOE">ACOE</option>
+            </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br>
+            <button onclick="Submit_data">Submit</button>
+</form>
+</center>
+</body>
+</html> -->

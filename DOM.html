@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Create Table on Button Click</title>
+<style>
+  /* Optional: Some basic styling for the table */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
+</style>
+</head>
+<body>
+
+<button id="createTableBtn">Create Table</button>
+<div id="tableContainer"></div>
+
+<script>
+  // JavaScript code to create table
+  document.getElementById('createTableBtn').addEventListener('click', function() {
+    var tableContainer = document.getElementById('tableContainer');
+    var table = document.createElement('table');
+    var header = table.createTHead();
+    var row = header.insertRow(0);
+
+    // Creating table headers
+    var headers = ['Column 1', 'Column 2', 'Column 3'];
+    for (var i = 0; i < headers.length; i++) {
+      var cell = row.insertCell(i);
+      cell.textContent = headers[i];
+    }
+
+    // Creating table rows with sample data
+    var data = [
+      ['Data 1A', 'Data 1B', 'Data 1C'],
+      ['Data 2A', 'Data 2B', 'Data 2C'],
+      ['Data 3A', 'Data 3B', 'Data 3C']
+    ];
+
+    for (var j = 0; j < data.length; j++) {
+      var rowData = data[j];
+      var row = table.insertRow(-1);
+      for (var k = 0; k < rowData.length; k++) {
+        var cell = row.insertCell(k);
+        cell.textContent = rowData[k];
+      }
+    }
+
+    // Appending table to the container
+    tableContainer.innerHTML = ''; // Clear previous table if any
+    tableContainer.appendChild(table);
+  });
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Button with Table</title>
+<style>
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
+</style>
+</head>
+<body>
+
+<!-- Button element -->
+<button id="generateTableBtn">Generate Table</button>
+
+<!-- Container for the table -->
+<div id="tableContainer"></div>
+
+<script>
+  // JavaScript code to create table with object data on button click
+  document.getElementById("generateTableBtn").onclick = function() {
+    // Sample object data
+    var students = [
+      { id: 1, name: 'Alice', age: 20 },
+      { id: 2, name: 'Bob', age: 22 },
+      { id: 3, name: 'Charlie', age: 21 }
+    ];
+
+    // Create a table element
+    var table = document.createElement('table');
+    
+    // Create table header row
+    var headerRow = table.insertRow();
+    Object.keys(students[0]).forEach(function(key) {
+      var th = document.createElement('th');
+      th.textContent = key.toUpperCase();
+      headerRow.appendChild(th);
+    });
+
+    // Create table rows with data from each object
+    students.forEach(function(student) {
+      var row = table.insertRow();
+      Object.keys(student).forEach(function(key) {
+        var cell = row.insertCell();
+        cell.textContent = student[key];
+      });
+    });
+
+    // Display the table in the tableContainer div
+    var tableContainer = document.getElementById('tableContainer');
+    tableContainer.innerHTML = '';
+    tableContainer.appendChild(table);
+  };
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dynamic Table Creation</title>
+<style>
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 8px;
+    }
+</style>
+</head>
+<body>
+
+<button onclick="createTable()">Create Table</button>
+<div id="table-container"></div>
+
+<script>
+function createTable() {
+    // Create a table element
+    var table = document.createElement('table');
+
+    // Create header row
+    var headerRow = table.insertRow();
+    var headerCell1 = headerRow.insertCell();
+    var headerCell2 = headerRow.insertCell();
+    headerCell1.textContent = 'Column 1';
+    headerCell2.textContent = 'Column 2';
+
+    // Create data rows and cells
+    for (var i = 0; i < 5; i++) {
+        var row = table.insertRow();
+        var cell1 = row.insertCell();
+        var cell2 = row.insertCell();
+        cell1.textContent = 'Row ' + (i + 1) + ', Cell 1';
+        cell2.textContent = 'Row ' + (i + 1) + ', Cell 2';
+    }
+
+    // Append the table to the table-container div
+    var tableContainer = document.getElementById('table-container');
+    tableContainer.innerHTML = ''; // Clear previous table if any
+    tableContainer.appendChild(table);
+}
+</script>
+
+</body>
+</html> -->
+
+
+
+
+<!-- <htmL>
+    <head> -->
+         <!-- <script>
+        console.log(document.getElementById("div"));
+    </script> -->
+    <!-- </head>
+    <body> -->
+        <!-- <div class="mydiv"></div>
+        <div class="mydiv"></div>
+        <p id="div"></p>
+        <b id="div"></b> -->
+         <!-- <img src="./10.jpeg" style="width: 100px; height: 100px;"> -->
+        <!-- <div class="div1" style="width: 100px; height: 100px; background-color: black; "></div>
+        <button onclick="change()">click here</button><br>
+        <img src="./10.jpeg" style="width: 100px; height: 100px;">
+        <button onclick="change1()">click here</button><br>
+        <div class="div2" style="width: 100px; height: 100px; background-image: url(./blue.png); background-repeat: no-repeat; background-size: 100% 100%;"></div>
+        <button onclick="change2()">click here</button><br>
+        <script src="./DOM.js"></script>
+    </body>
+</htmL> --> 

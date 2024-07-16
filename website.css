@@ -1,0 +1,153 @@
+.parent{
+    width:1100px;
+    height: 120svh;
+    border: 1px solid rgb(239, 236, 236);
+    background-color: rgb(245, 243, 243);
+    position: relative;
+    left: 55px;
+}
+.a{
+    width:100%;
+    height:50px;
+    border:1px solid white;
+    background-color: white;
+    position:relative;
+    top: 15px;
+    display: flex;
+    font-size: 18px;
+    
+} 
+.a1{
+    width: 90px;
+    height: 30px;
+    background-color: rgb(93, 223, 67);
+    position:relative;
+    top: 10px;
+    left:300px;
+    color: white;
+    border-radius: 5%;
+    align-content: center;
+}
+.a2{
+    width: 90px;
+    height: 30px;
+    background-color: rgb(67, 163, 223);
+    position:relative;
+    top: 10px;
+    left:310px;
+    color: white;
+    border-radius: 5%;
+    align-content: center;
+}
+.a3{
+    width: 90px;
+    height: 30px;
+    background-color: rgb(67, 163, 223);
+    position:relative;
+    left:320px;
+    top: 10px;
+    color: white;
+    border-radius: 5%;
+    align-content: center;
+}
+.a4{
+    width: 90px;
+    height: 30px;
+    background-color: rgb(67, 163, 223);
+    position:relative;
+    left:330px;
+    top: 10px;
+    color: white;
+    border-radius: 5%;
+    align-content: center;
+}
+.a5{
+    width: 90px;
+    height: 30px;
+    background-color: rgb(223, 67, 88);
+    position:relative;
+    left:340px;
+    top: 10px;
+    color: white;
+    border-radius: 5%;
+    align-content: center;
+}
+.b{
+    width: 300px;
+    height: 500px;
+    position: relative;
+    top:40px;
+    left: 20px;
+    border: 1px solid rgb(243, 236, 236);
+    background-color: white;
+
+}
+.b11{
+    width: 100px;
+    height: 100px;
+    border: 2px solid blue;
+    border-radius: 300px;
+    position: absolute;
+    top: 5%;
+    left: 30%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url("./tpic7.jpeg");
+}
+.txt{
+    width: 30px;
+    height: 20px  ;
+    top: 12%;
+    border: 1px solid blue;
+
+}
+/* .b1{
+    width: 100px;
+    height:100px;
+    background-color: white;
+    border: 1px solid white;
+    display: flex;
+
+} */
+/* .follow{
+    width: 70px;
+    height: 30px;
+    border: 1px solid rgb(51, 51, 150);
+    background-color: rgb(118, 118, 245);
+    position: relative;
+    left: 50px;
+    color: white;
+    border-radius: 5%;
+    align-content: center;
+}
+.msg{
+    width: 70px;
+    height: 30px;
+    border: 1px solid rgb(51, 51, 150);
+    background-color: rgb(125, 125, 242);
+    position: relative;
+    left: 60px;
+    color: rgb(190, 153, 244);
+    border-radius: 5%;
+    align-content: center;
+} */
+.c{
+    width: 650px;
+    height: 250px;
+    border: 1px solid white;
+    background-color: white;
+    position: absolute;
+    left:35%;
+    top:13%;
+    bottom:27%;
+}
+.d{
+    width: 650px;
+    height: 310px;
+    position: absolute;
+    left:35%;
+    top:52%;
+    background-color: white;
+    border: 1px solid white;
+
+}

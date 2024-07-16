@@ -1,0 +1,60 @@
+.parent{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    background:linear-gradient(white);
+    position: relative;
+    top:100px;
+    /* transform: skew(40deg); */
+    perspective: 20px;
+}
+.ch1{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    background-color: rgb(185, 168, 168);
+    top:0%;
+    transform-style: preserve-3d;
+    /* transform:rotatex(5deg); */
+    transform: rotatey(5deg);
+    font-size: 80px;
+    color:white;
+}
+.parent{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    background-color: aquamarine;
+    position: relative;
+    top:30%;
+    left:40%;
+    perspective: 50px;
+    perspective-origin: top;
+ }
+ .ch1{
+    width: 150%;
+    height: 100%;
+    position: absolute;
+    top:-100%;
+    left: -25%;
+    background-color: blue;
+    transform-style: preserve-3d;
+    transform: rotatex(170deg);
+ } 
+ .ch2{
+    width: 250%;
+    height: 100%;
+    position: absolute;
+    top:100%;
+    right:-75%;
+    background-color: blue;
+    transform-style: preserve-3d;
+    transform: rotateX(150deg);
+ }
+.ch3{
+    width: 150%;
+    height: 100%;
+    position: absolute;
+    background-color: green;
+    transform: rotateY(10deg);
+ }

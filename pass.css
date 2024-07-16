@@ -1,0 +1,152 @@
+.parent{
+    width: 60%;
+    height: 50%;
+    border: 1px solid rgb(223, 220, 220);
+    border-radius: 12px;
+    box-shadow:4px 4px 60px 6px rgb(116, 114, 114);
+    /* background-color: black; */
+    background-image: url("./ow.jpg");
+    background-size: 100% 100%;
+    margin-top: 5%;
+    margin-left: 18%;
+    position: relative;
+}
+.ch1{
+    width: 25%;
+    height: 15%;
+    background-color:;
+    background-image: url("./thub-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 2%;
+    left:3%;
+}
+.ch2{
+    height: 90%;
+    width: 30%;
+    /* background-color: red; */
+    position: absolute;
+    top: 9%;
+    left: 35%;
+    background-image: url("./owlcoder-removebg-preview.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.ch3{
+    width: 9%;
+    height: 25%;
+    background-color: red;
+    background-image: url("./qrcode.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top:65%;
+    left:87%;
+}
+.ch4{
+    width: 7%;
+    height: 10%;
+    /* background-color: red; */
+    position: absolute;
+    top:74%;
+    left:57%;
+    font-size: 30px;
+    color: gold;
+}
+.parent2{
+    width: 60%;
+    height: 50%;
+    border: 1px solid rgb(223, 220, 220);
+    background-image: url("./Screenshot\ 2024-06-23\ 183117.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 12px;
+    box-shadow:4px 4px 60px 6px rgb(116, 114, 114);
+    margin-top: 5%;
+    margin-left: 18%;
+    position: relative;
+}
+.ch11{
+    width: 10%;
+    height: 38%;
+    /* background-color: red; */
+    background-image: url("./owlcoder-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top:4%;
+    left:73%;
+}
+.ch12{
+    width: 70%;
+    height: 12%;
+    /* background-color: red; */
+    position: absolute;
+    top:28%;
+    left:8%;
+    font-size: 25px;
+    color: gold;
+}
+.ch5{
+    width: 20%;
+    height: 26%;
+    /* background-color: red; */
+    background-image:url("./au-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 60%;
+}
+.ch13{
+    width: 26%;
+    height: 15%;
+    /* background-color: aqua; */
+    position: absolute;
+    top:10%;
+    left:30%;
+    align-content: center;
+    font-size: 25px;
+    color: gold;
+    /* box-shadow: 0px 0px 10px; */
+}
+.ch14{
+    width: 70%;
+    height: 12%;
+    /* background-color: red; */
+    position: absolute;
+    top:40%;
+    left:8%;
+    font-size: 22px;
+    color: gold;
+}
+.ch15{
+    width: 70%;
+    height: 12%;
+    /* background-color: red; */
+    position: absolute;
+    top:50%;
+    left:8%;
+    font-size: 22px;
+    color: gold;
+}
+.ch16{
+    width: 70%;
+    height: 12%;
+    /* background-color: red; */
+    position: absolute;
+    top:60%;
+    left:8%;
+    font-size: 22px;
+    color: gold;
+}
+.ch17{
+    width: 70%;
+    height: 12%;
+    /* background-color: red; */
+    position: absolute;
+    top:80%;
+    left:78%;
+    font-size: 22px;
+    color: gold;
+}

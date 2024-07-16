@@ -1,0 +1,132 @@
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.parent{
+    width: 80%;
+    height: 80%;
+}
+.ch1{
+    width: 100%;
+    height: 50%;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    animation-name: my_animation3;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.ch2{
+    width: 100%;
+    height: 50%;
+    background-color: blue;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    animation-name: my_animation4;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+}
+/* .earth{
+    width: 20%;
+    height: 38%; */
+    /* border: 1px solid blue; */
+    /* border-radius: 100%;
+    position: absolute;
+    top:30%;
+    left:40%;
+    background-image: url("https://i.etsystatic.com/9674889/r/il/c425b8/650861778/il_1080xN.650861778_qnm1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+} */
+.moon{
+    width: 7%;
+    height: 30%;
+    /* border: 1px solid yellow;
+    background-color: yellow; */
+    border-radius: 100%;
+    background-image: url("https://cdn.britannica.com/96/208796-050-47869FC7/full-moon.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    animation-name: my_animation1;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.sun{
+    width: 7%;
+    height: 30%;
+    /* border: 1px solid red; */
+    border-radius: 100%;
+    /* background-color: red; */
+    background-image: url("https://scied.ucar.edu/sites/default/files/styles/large/public/2021-10/The%20Sun%20as%20seen%20in%20ultraviolet%20light.%20Credit%20NASA%20SDO%20and%20the%20AIA%2C%20EVE%2C%20and%20HMI%20science%20teams.jpg.webp?itok=0pdyrbeG");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    animation-name: my_animation2;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes my_animation1{
+    0%{
+        transform: rotate(0deg) translateY(170px);
+    }
+    100%{
+        transform: rotate(360deg) translateY(170px);
+    }
+}
+@keyframes my_animation2{
+    0%{
+        transform: rotate(0deg) translateY(-170px);
+    }
+    100%{
+        transform: rotate(360deg) translateY(-170px);
+    }
+}
+@keyframes my_animation3{
+    0%{
+        background-color: orange;
+
+    }
+    25%{
+        background-color: gray;
+    }
+    50%{
+        background-color: black;
+    }
+    75%{
+        background-color: bisque;
+
+    }
+    100%{
+        background-color: orange;
+    }
+    
+}
+@keyframes my_animation4{
+    0%{
+        background-color:black
+    }
+    25%{
+        background-color: gray;
+    }
+    50%{
+        background-color: orange;
+    }
+    75%{
+        background-color: bisque;
+
+    }
+    100%{
+        background-color: black;
+    }
+    
+}
